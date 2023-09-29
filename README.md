@@ -27,7 +27,7 @@
 9. Optionally, you can pin the extension icon to the browser's toolbar for easy access.
 
 ## Changes
-#####foe-helfer-extension-master\js\web\negotiation\js\negotiation.js
+##### foe-helfer-extension-master\js\web\negotiation\js\negotiation.js
 
 ```
 if (responseData.context === Negotiation.CONST_Context_GBG) {
