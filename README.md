@@ -53,7 +53,7 @@ if (responseData.context === Negotiation.CONST_Context_GBG) {
 
 ## FAQ
 
-For questions and answers please use the FOE Helper Forum [forum](https://discuss.foe-helper.com/) or discuss with us on the [Discord](https://discord.gg/z97KZq4) server.
+For questions and answers please use the FOE Helper [forum](https://discuss.foe-helper.com/) or discuss with on their [Discord](https://discord.gg/z97KZq4) server.
 
 ## Bugs & Wishes
 
