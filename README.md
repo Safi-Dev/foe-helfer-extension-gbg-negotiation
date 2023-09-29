@@ -27,6 +27,19 @@
 9. Optionally, you can pin the extension icon to the browser's toolbar for easy access.
 
 ## Changes
+#####foe-helfer-extension-master\js\web\negotiation\js\negotiation.js
+
+```
+if (responseData.context === Negotiation.CONST_Context_GBG) {
+    if (!$('#negotiation-Btn').hasClass('hud-btn-red')) {
+        $('#negotiation-Btn').addClass('hud-btn-red');
+        _menu.toolTipp('#negotiation-Btn', i18n('Menu.Negotiation.Title'), '<em id="negotiation-Btn-closed" class="tooltip-error">' + i18n('Menu.Negotiation.Warning') + '<br></em>' + i18n('Menu.Negotiation.Desc'));
+    }
+
+    // If contxt is 'GBG' return will be executed preventing GBG use
+    return
+```
+
 ```
 if (responseData.context === Negotiation.CONST_Context_GBG) {
     if (!$('#negotiation-Btn').hasClass('hud-btn-red')) {
