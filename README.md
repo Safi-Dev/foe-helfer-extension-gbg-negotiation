@@ -27,8 +27,8 @@
 9. Optionally, you can pin the extension icon to the browser's toolbar for easy access.
 
 ## Changes
-##### Edited Line 472/473 of "foe-helfer-extension-master\js\web\negotiation\js\negotiation.js" to allow for negotation helper use in GBG
-Took the easiest option of allow GBG interaction, in future there is room for optimisation
+Edited Line 472/473 of "foe-helfer-extension-master\js\web\negotiation\js\negotiation.js" to allow for negotation helper use in GBG
+Took the easiest option of allowing GBG interaction with menu, in future there is room for optimisation
 ```
 if (responseData.context === Negotiation.CONST_Context_GBG) {
     if (!$('#negotiation-Btn').hasClass('hud-btn-red')) {
